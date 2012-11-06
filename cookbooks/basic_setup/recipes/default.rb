@@ -52,7 +52,7 @@ link "#{home}/.gitconfig" do
 end 
 
 link "#{home}/.gitignore_global" do
-	to "#{home}/Dropbox/sysconf/gitconfig_global"
+	to "#{home}/Dropbox/sysconf/gitignore_global"
 end 
 
 
