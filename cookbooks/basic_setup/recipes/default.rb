@@ -45,6 +45,17 @@ link "#{home}/.bashrc" do
 	to "#{home}/Dropbox/sysconf/bashrc"
 end 
 
+# GIT
+
+link "#{home}/.gitconfig" do
+	to "#{home}/Dropbox/sysconf/gitconfig_jambit"
+end 
+
+link "#{home}/.gitignore_global" do
+	to "#{home}/Dropbox/sysconf/gitconfig_global"
+end 
+
+
 # VIM
 package "vim"
 package "vim-gtk"
