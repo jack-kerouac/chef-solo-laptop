@@ -96,7 +96,7 @@ set to 'none'. (The install script has these values preseeded.)
 Now that Chef Solo is installed we should use it. Execute the
 following command to provision your laptap.
 
-    sudo chef-solo -c solo.rb -j solo.json
+    sudo chef-solo -c solo.rb -j node.json
 
 This will execute the recipe in
 `cookbooks/basic_setup/recipes/default.rb`
