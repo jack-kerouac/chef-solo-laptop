@@ -80,3 +80,4 @@ end
 # MISC
 package "aptitude"
 package "tree"
+package "colordiff"
