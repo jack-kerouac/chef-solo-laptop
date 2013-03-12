@@ -1,5 +1,9 @@
 {
-	"Ihttp_proxy": "http://192.168.192.1:3128",
-	"Ihttps_proxy": "http://192.168.192.1:3128",
-	"run_list": [ "recipe[basic_setup]" ]
+	"http_proxy": "http://192.168.192.1:3128",
+	"https_proxy": "http://192.168.192.1:3128",
+	"run_list": [ "recipe[basic_setup]", "recipe[ntp]" ],
+
+	"ntp" : {
+		"servers" : ["ntp.jambit.com", "0.pool.ntp.org"]
+	}
 }

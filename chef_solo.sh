@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo chef-solo -c solo.rb -j node.json
+rvmsudo chef-solo -c solo.rb -j node.json
 
